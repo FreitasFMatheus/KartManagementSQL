@@ -47,10 +47,10 @@ O grupo escolheu fazer um Gerenciador de Corridas inspirado no jogo Mario Kart.
 
 
 #### Escolhas e justificativas
-##### DB1 — Cassandra (wide-column)
+##### DB1 — Mongo DB
 
-- Por que: escrita muito rápida, escalabilidade horizontal e tolerância a falhas; modelo por partição perfeito para consultar corridas por playerId, pistaId e intervalo de tempo.
-- Como usar: tabelas by player e/ou by track, com partition key bem definida e clustering por timestamp para ordenar.
+- Facilidade e ambos os membros já conhecem e já usaram o banco
+
 
 ##### DB2 — Neo4j (grafo)
 
