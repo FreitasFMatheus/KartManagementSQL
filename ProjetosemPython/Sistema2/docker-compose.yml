@@ -1,0 +1,12 @@
+services:
+  s2:
+    build: .
+    image: mk-s2:latest
+    container_name: mk_s2
+    network_mode: "host"
+    env_file:
+      - .env
+    working_dir: /app
+    volumes:
+      - .:/app
+    command: tail -f /dev/null
