@@ -170,7 +170,7 @@ Responsável por:
 --------------------------------------------------
 ## 3. Estrutura de pastas e arquivos
 
-
+```bash
 ProjetosemPython/
 ├── Sistema1/
 │   ├── Main.py          # cliente de terminal (Nintendo Switch fake)
@@ -211,7 +211,7 @@ ProjetosemPython/
     │
     └── db/
         └── __pycache__/      # restos de builds anteriores, podem ser ignorados
-
+```
 
 ---
 
